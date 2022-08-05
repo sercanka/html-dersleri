@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORM ETIKETLERI</title>
+</head>
+<body>
+
+	<form action="" method="GET">
+		<label for="kadi">Kullanici Adi</label>
+		<input placeholder="Kullanici adinizi yaziniz." required id="kadi" type="text"> <br>
+		<label for="sifre">Sifre</label>
+		<input required maxlength="6" id="sifre" type="password"> <br> <br>
+		<input type="number" min="5" required max="15" value="5"> <br> 
+		<label for="doya">Dosya sec</label>
+		<input id="dosya" type="file" multiple accept="image"> <br>
+		<label>
+			<input required type="checkbox"> Kurallari kabul ediyorum
+		</label> <br>
+		<label>
+			<input required type="checkbox" checked> Kosullari kabul ediyorum
+		</label> <br>
+		<label>
+			<input type="radio" name="cinsiyet" value="Erkek"> Erkek
+		</label>
+		<label>
+			<input type="radio" name="cinsiyet" value="Kadin"> Kadin
+		</label>
+		<br>
+		<input type="hidden" name="test" value="test">
+		<input type="submit"> 
+		<input type="reset">
+
+	</form>
+
+	<br>
+	<br>
+	<br>
+
+	<input type="color"> <br>
+	<input type="date"> <br>
+	<input type="datetime-local"> <br>
+	<input type="email">
+	<input type="month"> <br>
+	<input type="week"> <br>
+	<input type="number" min="5" max="15"> <br>
+	<input type="range" min="0" max="20" step="2"> <br>
+	<input type="search" autofocus> <br>
+	<input type="tel"> <br>
+	<input type="time"> <br>
+	<input type="url"> <br>
+	
+</body>
+</html>
